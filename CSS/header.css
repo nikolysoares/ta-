@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: none;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+header{
+    height: 12.5rem;
+    width: 100%;
+    background: #fb6066;
+    display: flex;
+    align-items: center;
+
+}
+.menu, .search, footer {
+    flex: 1;
+    height: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 15rem;
+}
